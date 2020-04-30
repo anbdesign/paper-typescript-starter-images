@@ -2,7 +2,7 @@ import { Path, Point, view, setup, Raster } from "paper"
 
 import './paper.css';
 // WEBPACK AND TYPESCRIPT BEING WEIRD
-declare function require(name:string);
+declare function require(name:string):any;
 const urlimage = require('./test_pattern.png')
 const urlimageRef = urlimage.default
 console.log(urlimage.default)
